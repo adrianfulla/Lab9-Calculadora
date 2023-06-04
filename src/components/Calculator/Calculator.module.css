@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+.calculatorShowText{
+    width: 203px;
+    height: 50px;
+    padding: 6px;
+    word-spacing: -0.1em;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    text-align: right;
+    justify-content: center;
+    display: block;
+    font-size: 100%;
+    font-weight: normal;
+    border: 0px solid transparent;
+    overflow: hidden;
+    border-top-left-radius: 25px ;
+    border-top-right-radius: 25px ;
+}
+
+.calculatorResult{
+    width: 203px;
+    padding: 6px;
+    height: 29px;
+    font-size: 12px;
+    background-color: rgb(59, 55, 55);
+    color: #02c983;
+    text-align: right;
+    justify-content: center;
+    display: block;
+    font-size: large;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.calculatorContainer{
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    background-color: rgb(18, 22, 56);
+    border-radius: 25px;
+    border: 5px solid #02c983;
+}

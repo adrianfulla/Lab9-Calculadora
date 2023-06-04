@@ -1,0 +1,61 @@
+.equal,
+.numberButton, 
+.exponentialButton, 
+.operationButton {
+    height: 50px;
+    width: 50px;
+    border-radius: 40%;
+    border: none;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+.expanded{
+    width:105px;
+    grid-column: 1 / span 2;
+    border-radius: 20px;
+}
+
+.equal{
+    background-color: rgb(38, 97, 18);
+    color: white;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.equal:hover{
+    background-color: rgb(74, 249, 83);
+    color: #000;
+}
+
+.numberButton{
+    background-color: #5a4848;
+    transition: background-color 0.4s ease-in-out;
+    color: mistyrose;
+}
+
+.numberButton:hover{
+    background-color: #7e6a6a;
+}
+
+.exponentialButton{
+    background-color: #a63838;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.exponentialButton:hover{
+    background-color: #dedede;
+    color: #000;
+}
+
+.operationButton{
+    background-color: #4c3251;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+}
+
+.operationButton:hover{
+    background-color: #6f4d6d;
+    color: #000;
+}
